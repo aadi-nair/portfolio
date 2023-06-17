@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto">
+
+<head><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>Distributed Log File Processor | Aditya Nair</title>
+<meta name="keywords" content="">
+<meta name="description" content="A parallel distributed system to analyze large log files Hadoop(Scala) and AWS EMR .">
+<meta name="author" content="Oct 2022 - Nov 2022">
+<link rel="canonical" href="https://aadi-nair.github.io/portfolio/projects/log_processor/">
+<link crossorigin="anonymous" href="/portfolio/assets/css/stylesheet.3613efbd0b1772781e8f49935e973cae632a7f61471c05b17be155505ccf87b5.css" integrity="sha256-NhPvvQsXcngej0mTXpc8rmMqf2FHHAWxe&#43;FVUFzPh7U=" rel="preload stylesheet" as="style">
+<script defer crossorigin="anonymous" src="/portfolio/assets/js/highlight.f413e19d0714851f6474e7ee9632408e58ac146fbdbe62747134bea2fa3415e0.js" integrity="sha256-9BPhnQcUhR9kdOfuljJAjlisFG&#43;9vmJ0cTS&#43;ovo0FeA="
+    onload="hljs.initHighlightingOnLoad();"></script>
+<link rel="icon" href="https://aadi-nair.github.io/portfolio/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="https://aadi-nair.github.io/portfolio/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://aadi-nair.github.io/portfolio/favicon-32x32.png">
+<link rel="apple-touch-icon" href="https://aadi-nair.github.io/portfolio/apple-touch-icon.png">
+<link rel="mask-icon" href="https://aadi-nair.github.io/portfolio/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --hljs-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-track {
+                background: 0 0;
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-thumb {
+                border-color: var(--theme);
+            }
+        }
+
+    </style>
+</noscript><meta property="og:title" content="Distributed Log File Processor" />
+<meta property="og:description" content="A parallel distributed system to analyze large log files Hadoop(Scala) and AWS EMR ." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://aadi-nair.github.io/portfolio/projects/log_processor/" /><meta property="article:section" content="projects" />
+
+
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Distributed Log File Processor"/>
+<meta name="twitter:description" content="A parallel distributed system to analyze large log files Hadoop(Scala) and AWS EMR ."/>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "Projects",
+      "item": "https://aadi-nair.github.io/portfolio/projects/"
+    }, 
+    {
+      "@type": "ListItem",
+      "position":  2 ,
+      "name": "Distributed Log File Processor",
+      "item": "https://aadi-nair.github.io/portfolio/projects/log_processor/"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Distributed Log File Processor",
+  "name": "Distributed Log File Processor",
+  "description": "A parallel distributed system to analyze large log files Hadoop(Scala) and AWS EMR .",
+  "keywords": [
+    
+  ],
+  "articleBody": "Scala AWS EC2 AWS S3 AWS EMR gRPC Hadoop REST AWS Lambda slf4j\nDeveloped a program to determine the distribution of log messages that match a specific pattern across various log files, message types, and time intervals.\nGiven log files of the format as input\n09:58:55.569 [main] INFO GenerateLogData$ - Log data generator started... 09:58:55.881 [scala-execution-context-global-17] INFO GenerateLogData$ - NL8Q%rvl,RBHq@|XR2U\u0026k\u003e\"SXwcyB#iv 09:58:55.928 [scala-execution-context-global-17] WARN Generation.Parameters$ - =5$YcP!s@h 09:59:30.849 [scala-execution-context-global-17] INFO Generation.Parameters$ - V",
+  "wordCount" : "160",
+  "inLanguage": "en",
+  "datePublished": "0001-01-01T00:00:00Z",
+  "dateModified": "0001-01-01T00:00:00Z",
+  "author":{
+    "@type": "Person",
+    "name": "Oct 2022 - Nov 2022"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://aadi-nair.github.io/portfolio/projects/log_processor/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Aditya Nair",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://aadi-nair.github.io/portfolio/favicon.ico"
+    }
+  }
+}
+</script>
+</head>
+
+<body class="" id="top">
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.body.classList.add('dark');
+    } else if (localStorage.getItem("pref-theme") === "light") {
+        document.body.classList.remove('dark')
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.body.classList.add('dark');
+    }
+
+</script>
+
+<header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="https://aadi-nair.github.io/portfolio/" accesskey="h" title="Aditya Nair (Alt + H)">Aditya Nair</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="https://aadi-nair.github.io/portfolio/experience" title="Experience">
+                    <span>Experience</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://aadi-nair.github.io/portfolio/projects" title="Projects">
+                    <span>Projects</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    
+    <h1 class="post-title">
+      Distributed Log File Processor
+    </h1>
+    <div class="post-meta">Oct 2022 - Nov 2022
+
+</div>
+  </header> 
+  <div class="post-content"><p><code>Scala</code> <code>AWS EC2</code> <code>AWS S3</code> <code>AWS EMR</code> <code>gRPC</code>
+<code>Hadoop</code> <code>REST</code> <code>AWS Lambda</code> <code>slf4j</code></p>
+<ul>
+<li>
+<p>Developed a program to determine the distribution of log messages that match a specific pattern across various log files, message types, and time intervals.</p>
+</li>
+<li>
+<p>Given log files of the format as input</p>
+</li>
+</ul>
+<pre tabindex="0"><code>09:58:55.569 [main] INFO  GenerateLogData$ - Log data generator started...
+09:58:55.881 [scala-execution-context-global-17] INFO  GenerateLogData$ - NL8Q%rvl,RBHq@|XR2U&amp;k&gt;&#34;SXwcyB#iv
+09:58:55.928 [scala-execution-context-global-17] WARN  Generation.Parameters$ - =5$YcP!s@h
+09:59:30.849 [scala-execution-context-global-17] INFO  Generation.Parameters$ - V&lt;Z~#Ws&#34;WNJ:[d?+dRpaIFp23&#34;1_oKn;Qd,&gt;
+09:59:30.867 [scala-execution-context-global-17] INFO  Generation.Parameters$ - 3FNgL&lt;)k7+c+8yQ&#34;3m*e#!)HK[[&#39;z+-an/Uw?J&#39;|[&lt;w&amp;kbtM
+09:59:30.876 [scala-execution-context-global-17] ERROR  Generation.Parameters$ - +5l}CAK:}q])
+09:59:30.891 [scala-execution-context-global-17] INFO  Generation.Parameters$ - Mv8)!{uuaD3%&lt;m.VO/[pfHLS&amp;eIBmKx~(6
+</code></pre><p>the program uses <code>AWS EMR</code> to output CSV files with the following statistics:</p>
+<ol>
+<li>distribution of different types of messages across predefined time intervals matching a regex pattern.</li>
+<li>time intervals sorted in the descending order that contained most log messages of the type <code>ERROR</code> also matching a regex pattern.</li>
+<li>number of the generated log messages for each <em><strong>message type</strong></em> .</li>
+<li>number of characters in each log message matching a regex pattern.</li>
+</ol>
+
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+    </ul>
+  </footer>
+</article>
+    </main>
+    
+<footer class="footer">
+    <span>&copy; 2023 <a href="https://aadi-nair.github.io/portfolio/">Aditya Nair</a></span>
+    <span>
+        Powered by
+        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu')
+    if (menu) {
+        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        if (document.body.className.includes("dark")) {
+            document.body.classList.remove('dark');
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            document.body.classList.add('dark');
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+</body>
+
+</html>

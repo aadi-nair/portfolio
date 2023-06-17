@@ -6,5 +6,86 @@
     <description>Recent content on Aditya Nair</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language><atom:link href="https://aadi-nair.github.io/portfolio/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Discovery Partners Institute</title>
+      <link>https://aadi-nair.github.io/portfolio/experience/dpi/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://aadi-nair.github.io/portfolio/experience/dpi/</guid>
+      <description>Research Assistant - Machine Learning (Aug 2022 - May 2023)</description>
+    </item>
+    
+    <item>
+      <title>RPC Banking System</title>
+      <link>https://aadi-nair.github.io/portfolio/projects/rpc_banking/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://aadi-nair.github.io/portfolio/projects/rpc_banking/</guid>
+      <description>A Banking System using Golang</description>
+    </item>
+    
+    <item>
+      <title>Agnostech Innovations</title>
+      <link>https://aadi-nair.github.io/portfolio/experience/agnostech/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://aadi-nair.github.io/portfolio/experience/agnostech/</guid>
+      <description>Fullstack Developer (June 2019 -  July 2021)</description>
+    </item>
+    
+    <item>
+      <title>Distributed Log File Processor</title>
+      <link>https://aadi-nair.github.io/portfolio/projects/log_processor/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://aadi-nair.github.io/portfolio/projects/log_processor/</guid>
+      <description>A parallel distributed system to analyze large log files Hadoop(Scala) and AWS EMR .</description>
+    </item>
+    
+    <item>
+      <title>Pacando</title>
+      <link>https://aadi-nair.github.io/portfolio/projects/pacando/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://aadi-nair.github.io/portfolio/projects/pacando/</guid>
+      <description>A fantasy football app for Bundesliga that monetizes user expertise</description>
+    </item>
+    
+    <item>
+      <title>Stupidsid</title>
+      <link>https://aadi-nair.github.io/portfolio/experience/stupidsid/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://aadi-nair.github.io/portfolio/experience/stupidsid/</guid>
+      <description>Android Development Intern (June 2017 - July 2017)</description>
+    </item>
+    
+    <item>
+      <title>Jisho</title>
+      <link>https://aadi-nair.github.io/portfolio/projects/jisho/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://aadi-nair.github.io/portfolio/projects/jisho/</guid>
+      <description>A flashcard application to optimize Japanese Kanji memorization encrypted usingSharedPreference and SQLite.</description>
+    </item>
+    
+    <item>
+      <title>Companion</title>
+      <link>https://aadi-nair.github.io/portfolio/projects/companion/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://aadi-nair.github.io/portfolio/projects/companion/</guid>
+      <description>Revamped college portal used by 1000+ students</description>
+    </item>
+    
+    <item>
+      <title>Aburaya(油屋)</title>
+      <link>https://aadi-nair.github.io/portfolio/projects/aburaya/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://aadi-nair.github.io/portfolio/projects/aburaya/</guid>
+      <description>A non-cs craft project</description>
+    </item>
+    
   </channel>
 </rss>

@@ -2,9 +2,31 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://aadi-nair.github.io/portfolio/experience/dpi/</loc>
+  </url><url>
+    <loc>https://aadi-nair.github.io/portfolio/projects/rpc_banking/</loc>
+  </url><url>
+    <loc>https://aadi-nair.github.io/portfolio/experience/agnostech/</loc>
+  </url><url>
+    <loc>https://aadi-nair.github.io/portfolio/projects/log_processor/</loc>
+  </url><url>
+    <loc>https://aadi-nair.github.io/portfolio/projects/pacando/</loc>
+  </url><url>
+    <loc>https://aadi-nair.github.io/portfolio/experience/stupidsid/</loc>
+  </url><url>
+    <loc>https://aadi-nair.github.io/portfolio/projects/jisho/</loc>
+  </url><url>
+    <loc>https://aadi-nair.github.io/portfolio/projects/companion/</loc>
+  </url><url>
+    <loc>https://aadi-nair.github.io/portfolio/projects/aburaya/</loc>
+  </url><url>
     <loc>https://aadi-nair.github.io/portfolio/</loc>
   </url><url>
     <loc>https://aadi-nair.github.io/portfolio/categories/</loc>
+  </url><url>
+    <loc>https://aadi-nair.github.io/portfolio/experience/</loc>
+  </url><url>
+    <loc>https://aadi-nair.github.io/portfolio/projects/</loc>
   </url><url>
     <loc>https://aadi-nair.github.io/portfolio/tags/</loc>
   </url>
