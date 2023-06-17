@@ -2,3 +2,36 @@ baseURL: https://aadi-nair.github.io/portfolio/
 languageCode: en-us
 title: Aditya Nair
 theme: PaperMod
+
+params:
+  # homeInfoParams:
+  #   Title: Hi, I'm Aditya
+  #   Content: "I'm a CS Grad at UIC"
+  profileMode:
+    enabled: true
+    title: "Aditya Nair" # optional default will be site title
+    subtitle: "CS Grad @UIC"
+    imageUrl: "https://avatars.githubusercontent.com/u/18663918?v=4" # optional
+    imageTitle: "" # optional
+    imageWidth: 120 # custom size
+    imageHeight: 120 # custom size
+
+  socialIcons:
+    - name: github
+      url: "https://github.com/DrBanner97"
+    - name: linkedin
+      url: "https://www.linkedin.com/in/aditya-nair-461526148/"
+    - name: cv
+      url: "resume/Aditya Nair.pdf"
+      # title: "Github"
+      # url: "www.google.com"
+menu:
+  main:
+    - identifier: experience
+      name: Experience
+      url: /experience
+      weight: 10
+    - identifier: projects
+      name: Projects
+      url: /projects
+      weight: 20
