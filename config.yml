@@ -11,10 +11,12 @@ params:
     enabled: true
     title: "Aditya Nair" # optional default will be site title
     subtitle: "CS Grad @UIC"
-    imageUrl: "https://avatars.githubusercontent.com/u/18663918?v=4" # optional
+    # imageUrl: "https://avatars.githubusercontent.com/u/18663918?v=4" # optional
+    imageUrl: "img/profile.png" # optional
+
     imageTitle: "" # optional
-    imageWidth: 120 # custom size
-    imageHeight: 120 # custom size
+    # imageWidth: 250 # custom size
+    # imageHeight: 240 # custom size
 
   socialIcons:
     - name: github
@@ -22,7 +24,7 @@ params:
     - name: linkedin
       url: "https://www.linkedin.com/in/aditya-nair-461526148/"
     - name: cv
-      url: "resume/Aditya Nair.pdf"
+      url: "resume/Aditya_Resume.pdf"
       # title: "Github"
       # url: "www.google.com"
 menu:
