@@ -22,7 +22,7 @@ params:
     - name: github
       url: "https://github.com/aadi-nair"
     - name: linkedin
-      url: "https://www.linkedin.com/in/aditya-nair-461526148/"
+      url: "https://www.linkedin.com/in/aadi-nair/"
     - name: cv
       url: "resume/Aditya_Resume.pdf"
       # title: "Github"
