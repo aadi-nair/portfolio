@@ -2,7 +2,7 @@
 title: Discovery Partners Institute
 summary: Research Assistant - Machine Learning (Aug 2022 - May 2023)
 author: Chicago, IL
-weight: 1
+weight: 2
 ---
 
 `Python` `Pandas` `Google Colab` `numpy` `scikit` `matplotlib` `ODE Models`

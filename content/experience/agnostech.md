@@ -3,7 +3,7 @@ title: Agnostech Innovations
 summary: Fullstack Developer (June 2019 -  July 2021)
 # date: 2020-06-01
 author: Mumbai, India
-weight: 2
+weight: 3
 ---
 
 `Flutter` `Node.js` `GraphQL` `React.js` ` Typescript` `GCS `
